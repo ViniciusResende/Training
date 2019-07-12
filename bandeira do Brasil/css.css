@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+html{
+    background-color: whitesmoke;
+}
+.b {
+    width: 60px;
+    box-sizing: border-box;
+    height: 80px;
+    border: 30px solid goldenrod;
+    border-bottom: 15px solid transparent;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    float: left;
+}
+.title{ 
+    text-align: center;
+    margin: 0px;
+    /*line-height:*/ 
+    font: italic bold 100px 'Source Code Pro';
+}
+.bandeira{
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.bandeira>div{
+    position: absolute;
+}
+.verde{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+.amarelo-left{
+    left: 10%;
+    top: 10%;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid transparent;
+    border-right: 320px solid yellow;
+}
+.amarelo-right{
+    right: 10%;
+    top: 10%;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid transparent;
+    border-left: 320px solid yellow;
+}
+.azul{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 75px;
+}
+.branco{
+    color: green;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+#copy{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
